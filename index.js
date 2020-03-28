@@ -40,4 +40,3 @@ router.use('/item', require('./routes/index'));
 app.use('/', router)
 
 app.listen(process.env.PORT, () => console.log(`app running on port ${process.env.PORT}`))
-let AWS_KEY = 'AKIAIOSFODNN7EXAMPLE'
